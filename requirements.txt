@@ -1,0 +1,12 @@
+# Python 3.11. Versions used for the values reported in the book (Section 2.4.6)
+nltk==3.9.2
+textstat==0.7.4
+vaderSentiment==3.3.2
+gensim==4.4.0
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+statsmodels==0.15.0
+matplotlib==3.10.9
+seaborn==0.13.2
+wordcloud==1.9.6

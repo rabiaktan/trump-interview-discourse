@@ -1,0 +1,179 @@
+Röportaj sayısı: 16
+Cümle bölücü: nltk
+FK değerleri corpus_stats.csv dosyasından alındı.
+
+=== A. SÖZCÜK ÇEŞİTLİLİĞİ ===
+             measure  mean_2020_2021  mean_2023_2025  pct_change  spearman_rho_vs_log_length  p_perm_length  spearman_rho_vs_date  p_perm_date
+ ttr_original_method          0.2870          0.1990       -30.6                      -0.953         0.0000                -0.768       0.0008
+    ttr_clean_tokens          0.2141          0.1318       -38.5                      -0.956         0.0000                -0.732       0.0019
+           mattr_100          0.6378          0.6398         0.3                       0.106         0.6902                 0.012       0.9706
+           mattr_500          0.4004          0.4082         1.9                       0.324         0.2218                 0.094       0.7335
+                mtld         48.2230         49.3267         2.3                      -0.176         0.5187                 0.003       0.9961
+  ttr_sample500_mean          0.4004          0.4086         2.0                       0.459         0.0742                 0.079       0.7756
+hapax_sample500_mean          0.2158          0.2284         5.8                       0.353         0.1834                 0.200       0.4611
+
+=== C. PROFİL KARŞILAŞTIRMASI (kesin permütasyon testleri) ===
+                                   scheme                  metric  adv_minus_others  cliffs_delta_adv_vs_others  p_exact_adv_vs_others  n_permutations_2grp  p_exact_3groups  n_permutations_3grp  bonferroni_alpha
+            ana (Oval Office=adversarial)            amp_rate_NEW            -2.712                      -0.417                 0.2456                 1820           0.3526               120120            0.0045
+            ana (Oval Office=adversarial) amp_rate_NEW_excl_great            -0.846                      -0.167                 0.6082                 1820           0.6702               120120            0.0045
+            ana (Oval Office=adversarial)          hedge_rate_NEW            -1.385                      -0.396                 0.5615                 1820           0.6463               120120            0.0045
+            ana (Oval Office=adversarial)       negation_rate_NEW             5.282                       1.000                 0.0093                 1820           0.0341               120120            0.0045
+            ana (Oval Office=adversarial)    superlative_rate_NEW             0.511                       0.062                 0.5319                 1820           0.8221               120120            0.0045
+            ana (Oval Office=adversarial)       self_ref_rate_NEW             7.059                       0.542                 0.1577                 1820           0.1500               120120            0.0045
+            ana (Oval Office=adversarial)                fk_grade            -0.642                      -0.646                 0.1088                 1820           0.2572               120120            0.0045
+            ana (Oval Office=adversarial)              talk_ratio           -11.208                      -0.833                 0.0209                 1820           0.0665               120120            0.0045
+            ana (Oval Office=adversarial)               mattr_500            -0.010                      -0.458                 0.2291                 1820           0.5394               120120            0.0045
+            ana (Oval Office=adversarial)            direct_ratio            -0.302                      -1.000                 0.0104                 1820           0.0057               120120            0.0045
+            ana (Oval Office=adversarial)      sentiment_compound            -0.024                      -0.333                 0.4505                 1820           0.4550               120120            0.0045
+         duyarlılık (Oval Office=neutral)            amp_rate_NEW            -3.548                      -0.641                 0.1607                  560           0.2918               160160            0.0045
+         duyarlılık (Oval Office=neutral) amp_rate_NEW_excl_great            -1.711                      -0.436                 0.3196                  560           0.5950               160160            0.0045
+         duyarlılık (Oval Office=neutral)          hedge_rate_NEW            -3.256                      -0.821                 0.1482                  560           0.3904               160160            0.0045
+         duyarlılık (Oval Office=neutral)       negation_rate_NEW             4.979                       0.949                 0.0500                  560           0.0357               160160            0.0045
+         duyarlılık (Oval Office=neutral)    superlative_rate_NEW             0.954                       0.308                 0.2804                  560           0.5394               160160            0.0045
+         duyarlılık (Oval Office=neutral)       self_ref_rate_NEW             6.153                       0.385                 0.2911                  560           0.1442               160160            0.0045
+         duyarlılık (Oval Office=neutral)                fk_grade            -0.705                      -0.692                 0.1071                  560           0.2926               160160            0.0045
+         duyarlılık (Oval Office=neutral)              talk_ratio            -9.085                      -0.692                 0.0982                  560           0.1774               160160            0.0045
+         duyarlılık (Oval Office=neutral)               mattr_500            -0.007                      -0.436                 0.4018                  560           0.5985               160160            0.0045
+         duyarlılık (Oval Office=neutral)            direct_ratio            -0.292                      -1.000                 0.0304                  560           0.0068               160160            0.0045
+         duyarlılık (Oval Office=neutral)      sentiment_compound            -0.013                      -0.128                 0.6839                  560           0.4330               160160            0.0045
+duyarlılık 2 (Meet the Press=adversarial)            amp_rate_NEW            -2.943                      -0.455                 0.1712                 4368           0.2823                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial) amp_rate_NEW_excl_great            -1.136                      -0.200                 0.4647                 4368           0.6646                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)          hedge_rate_NEW            -1.697                      -0.364                 0.4533                 4368           0.6056                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)       negation_rate_NEW             5.287                       1.000                 0.0014                 4368           0.0656                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)    superlative_rate_NEW             0.332                       0.000                 0.6660                 4368           0.9074                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)       self_ref_rate_NEW             8.846                       0.709                 0.0515                 4368           0.1592                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)                fk_grade            -0.533                      -0.509                 0.1646                 4368           0.3348                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)              talk_ratio           -10.155                      -0.745                 0.0243                 4368           0.1025                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)               mattr_500            -0.010                      -0.455                 0.2390                 4368           0.4565                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)            direct_ratio            -0.311                      -1.000                 0.0032                 4368           0.0070                48048            0.0045
+duyarlılık 2 (Meet the Press=adversarial)      sentiment_compound            -0.030                      -0.455                 0.3336                 4368           0.4020                48048            0.0045
+
+--- Zamansal eğilimler (16 röportaj, Spearman + permütasyon) ---
+                 metric  rho_vs_date  p_perm_date  rho_vs_log_length  p_perm_length
+           amp_rate_NEW        0.141       0.6056             -0.279         0.2971
+amp_rate_NEW_excl_great        0.168       0.5403             -0.212         0.4316
+         hedge_rate_NEW        0.041       0.8770             -0.434         0.0936
+      negation_rate_NEW        0.100       0.7181              0.362         0.1694
+   superlative_rate_NEW       -0.068       0.8035              0.016         0.9540
+      self_ref_rate_NEW        0.047       0.8581              0.297         0.2661
+               fk_grade        0.244       0.3604              0.089         0.7389
+             talk_ratio       -0.053       0.8490             -0.094         0.7264
+              mattr_500        0.094       0.7335              0.324         0.2218
+           direct_ratio       -0.165       0.5391             -0.500         0.0528
+     sentiment_compound       -0.235       0.3779             -0.353         0.1747
+    ttr_original_method       -0.768       0.0008             -0.953         0.0000
+                   mtld        0.003       0.9961             -0.176         0.5187
+
+=== D. TUR DÜZEYİ KARMA ETKİLİ MODEL ===
+Analize giren Trump turu (>=20 kelime): 923
+Tur düzeyi küme permütasyon testleri:
+      scheme               outcome  adv_minus_others_per100  p_cluster_perm  n_permutations
+profile_orig            amp_per100                   -0.151          0.4714            1820
+profile_orig amp_excl_great_per100                    0.031          0.8407            1820
+profile_orig            neg_per100                    0.542          0.0533            1820
+profile_orig          hedge_per100                   -0.008          0.9670            1820
+ profile_alt            amp_per100                   -0.297          0.2321             560
+ profile_alt amp_excl_great_per100                   -0.119          0.4964             560
+ profile_alt            neg_per100                    0.434          0.1786             560
+ profile_alt          hedge_per100                   -0.234          0.3089             560
+Karma etkili modeller:
+      scheme               outcome                   term   coef  ci_low  ci_high      p  interview_var optimizer                 status
+profile_orig            amp_per100              Intercept  1.532     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+profile_orig            amp_per100 profile[T.adversarial] -0.351     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+profile_orig            amp_per100     profile[T.neutral] -0.541     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+profile_orig amp_excl_great_per100              Intercept  0.093     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+profile_orig amp_excl_great_per100 profile[T.adversarial] -0.530     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+profile_orig amp_excl_great_per100     profile[T.neutral]  0.201     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+profile_orig            neg_per100              Intercept  2.100   1.801    2.399 0.0000         0.0500        nm                     ok
+profile_orig            neg_per100 profile[T.adversarial]  0.638   0.163    1.114 0.0085         0.0500        nm                     ok
+profile_orig            neg_per100     profile[T.neutral]  0.247  -0.296    0.789 0.3731         0.0500        nm                     ok
+profile_orig          hedge_per100              Intercept  0.962   0.712    1.212 0.0000         0.0935      bfgs                     ok
+profile_orig          hedge_per100 profile[T.adversarial] -0.108  -0.532    0.316 0.6185         0.0935      bfgs                     ok
+profile_orig          hedge_per100     profile[T.neutral] -0.234  -0.759    0.292 0.3834         0.0935      bfgs                     ok
+ profile_alt            amp_per100              Intercept  1.533     NaN      NaN    NaN         0.0013     lbfgs boundary/not converged
+ profile_alt            amp_per100 profile[T.adversarial] -0.473     NaN      NaN    NaN         0.0013     lbfgs boundary/not converged
+ profile_alt            amp_per100     profile[T.neutral] -0.408     NaN      NaN    NaN         0.0013     lbfgs boundary/not converged
+ profile_alt amp_excl_great_per100              Intercept  0.093     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+ profile_alt amp_excl_great_per100 profile[T.adversarial] -0.038     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+ profile_alt amp_excl_great_per100     profile[T.neutral]  0.405     NaN      NaN    NaN         0.0000     lbfgs boundary/not converged
+ profile_alt            neg_per100              Intercept  2.099   1.782    2.416 0.0000         0.0738        nm                     ok
+ profile_alt            neg_per100 profile[T.adversarial]  0.596   0.040    1.152 0.0356         0.0738        nm                     ok
+ profile_alt            neg_per100     profile[T.neutral]  0.394  -0.141    0.929 0.1489         0.0738        nm                     ok
+ profile_alt          hedge_per100              Intercept  0.960   0.719    1.202 0.0000         0.0839      bfgs                     ok
+ profile_alt          hedge_per100 profile[T.adversarial] -0.293  -0.742    0.155 0.1998         0.0839      bfgs                     ok
+ profile_alt          hedge_per100     profile[T.neutral] -0.016  -0.456    0.424 0.9429         0.0839      bfgs                     ok
+
+=== E. DUYGU ANALİZİ: KONU ATAMA DÖNGÜSELLİK TESTİ ===
+Trump cümlesi (>=4 kelime): 8318
+              n  compound_mean  compound_masked_mean
+topic                                               
+covid        71          0.108                 0.109
+economy     554          0.057                 0.057
+elections   248         -0.003                 0.043
+foreign     343          0.019                 0.019
+opponents   377         -0.076                -0.029
+other      6376          0.033                 0.033
+self        349          0.222                 0.064
+Self–opponents farkı: orijinal 0.298 | anahtar kelimeler maskelenince 0.093
+
+=== F. EŞDİZİM (MI, LOG-LIKELIHOOD) ===
+   node  node_freq      collocate  joint_freq  collocate_freq   MI  log_likelihood_G2
+  biden        158            joe          21              38 5.41             130.91
+  biden        158    indictments           9              12 5.85              64.81
+  biden        158          obama          11              40 4.40              49.33
+  biden        158      interview           6              28 4.04              23.61
+  biden        158        corrupt           5              22 4.13              20.30
+  china        135          virus          10              15 5.91              71.10
+  china        135         russia          13             110 3.41              39.37
+  china        135            ban           6              13 5.38              36.24
+  china        135           made           9              67 3.60              29.49
+  china        135           came           9              96 3.08              23.26
+country        357        history          30              69 3.89             119.77
+country        357     destroying          10              12 4.83              59.88
+country        357          world          23             144 2.44              43.11
+country        357      respected          10              25 3.77              37.82
+country        357          unify           3               3 5.09              21.17
+   fake         58           news          39              55 7.21             354.04
+   fake         58          polls           8              35 5.58              48.28
+   fake         58 investigations           4               5 7.39              37.80
+   fake         58          media           4              26 5.01              20.67
+   fake         58          watch           3              22 4.84              14.74
+  great        325            job          42             125 3.65             149.68
+  great        325          shape           9              13 4.69              49.38
+  great        325       military          12              47 3.25              35.45
+  great        325       vaccines           6               9 4.64              32.17
+  great        325   relationship           8              20 3.90              31.69
+  never        245       happened          41             123 4.05             167.64
+  never        245           seen          34              77 4.45             162.07
+  never        245       would've          29             100 3.85             109.26
+  never        245       anything          21             102 3.35              63.72
+  never        245         spring           5               4 5.95              41.28
+ nobody        100           ever          12             157 3.21              32.97
+ nobody        100        thought           8              58 4.07              31.16
+ nobody        100          wants           7              44 4.27              29.31
+ nobody        100          knows           6              32 4.51              27.18
+ nobody        100        tougher           4              13 5.22              22.52
+ people        837            lot          78             292 1.95             109.48
+ people        837           sick          19              19 3.86             101.71
+ people        837           many          54             205 1.93              74.32
+ people        837        million          28              66 2.62              65.35
+ people        837       millions          27              74 2.40              54.13
+
+=== G. LDA (250 kelimelik alt dokümanlar) ===
+Alt doküman sayısı: 139
+  k= 4  Cv=0.2795
+  k= 5  Cv=0.3144
+  k= 6  Cv=0.2935
+  k= 7  Cv=0.2957
+  k= 8  Cv=0.2839
+  k= 9  Cv=0.2711
+  k=10  Cv=0.2986
+  k=11  Cv=0.2724
+  k=12  Cv=0.2878
+En yüksek Cv: k=5
+
+=== NOTLAR ===
+Toplam tur (konuşmacı turu, tüm röportajlar): 3718
+Toplam Trump turu: 1865
+Orijinal TTR: boşlukla bölünmüş, küçük harfli ham tokenlar; durak sözcükler ÇIKARILMADAN, noktalama yapışık biçimler ayrı tip sayılarak hesaplanmıştır.
+MATTR/MTLD/örneklem ölçüleri: noktalamadan arındırılmış tokenlar, durak sözcükler dahil.

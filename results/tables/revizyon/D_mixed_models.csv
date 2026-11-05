@@ -1,0 +1,25 @@
+scheme,outcome,term,coef,ci_low,ci_high,p,interview_var,optimizer,status
+profile_orig,amp_per100,Intercept,1.532,,,,0.0,lbfgs,boundary/not converged
+profile_orig,amp_per100,profile[T.adversarial],-0.351,,,,0.0,lbfgs,boundary/not converged
+profile_orig,amp_per100,profile[T.neutral],-0.541,,,,0.0,lbfgs,boundary/not converged
+profile_orig,amp_excl_great_per100,Intercept,0.093,,,,0.0,lbfgs,boundary/not converged
+profile_orig,amp_excl_great_per100,profile[T.adversarial],-0.53,,,,0.0,lbfgs,boundary/not converged
+profile_orig,amp_excl_great_per100,profile[T.neutral],0.201,,,,0.0,lbfgs,boundary/not converged
+profile_orig,neg_per100,Intercept,2.1,1.801,2.399,0.0,0.05,nm,ok
+profile_orig,neg_per100,profile[T.adversarial],0.638,0.163,1.114,0.0085,0.05,nm,ok
+profile_orig,neg_per100,profile[T.neutral],0.247,-0.296,0.789,0.3731,0.05,nm,ok
+profile_orig,hedge_per100,Intercept,0.962,0.712,1.212,0.0,0.0935,bfgs,ok
+profile_orig,hedge_per100,profile[T.adversarial],-0.108,-0.532,0.316,0.6185,0.0935,bfgs,ok
+profile_orig,hedge_per100,profile[T.neutral],-0.234,-0.759,0.292,0.3834,0.0935,bfgs,ok
+profile_alt,amp_per100,Intercept,1.533,,,,0.0013,lbfgs,boundary/not converged
+profile_alt,amp_per100,profile[T.adversarial],-0.473,,,,0.0013,lbfgs,boundary/not converged
+profile_alt,amp_per100,profile[T.neutral],-0.408,,,,0.0013,lbfgs,boundary/not converged
+profile_alt,amp_excl_great_per100,Intercept,0.093,,,,0.0,lbfgs,boundary/not converged
+profile_alt,amp_excl_great_per100,profile[T.adversarial],-0.038,,,,0.0,lbfgs,boundary/not converged
+profile_alt,amp_excl_great_per100,profile[T.neutral],0.405,,,,0.0,lbfgs,boundary/not converged
+profile_alt,neg_per100,Intercept,2.099,1.782,2.416,0.0,0.0738,nm,ok
+profile_alt,neg_per100,profile[T.adversarial],0.596,0.04,1.152,0.0356,0.0738,nm,ok
+profile_alt,neg_per100,profile[T.neutral],0.394,-0.141,0.929,0.1489,0.0738,nm,ok
+profile_alt,hedge_per100,Intercept,0.96,0.719,1.202,0.0,0.0839,bfgs,ok
+profile_alt,hedge_per100,profile[T.adversarial],-0.293,-0.742,0.155,0.1998,0.0839,bfgs,ok
+profile_alt,hedge_per100,profile[T.neutral],-0.016,-0.456,0.424,0.9429,0.0839,bfgs,ok

@@ -1,0 +1,8 @@
+topic,n,compound_mean,compound_masked_mean
+covid,71,0.108,0.109
+economy,554,0.057,0.057
+elections,248,-0.003,0.043
+foreign,343,0.019,0.019
+opponents,377,-0.076,-0.029
+other,6376,0.033,0.033
+self,349,0.222,0.064

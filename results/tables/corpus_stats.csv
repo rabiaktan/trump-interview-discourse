@@ -1,0 +1,17 @@
+id,slug,title,date,trump_words,interviewer_words,total_turns,trump_turns,trump_talk_ratio,ttr,avg_sent_len,hapax_ratio,flesch_reading_ease,flesch_kincaid_grade,gunning_fog
+1,axios_hbo,Donald Trump Interview Transcript With Jonathan Sw,2020-08-03,5151,2536,530,270,67.0,0.2429,8.28,0.1336,87.72,3.3,4.53
+2,tucker_x_debate,Tucker on X Debate Night Interview with Donald Tru,2023-08-23,7732,957,135,68,89.0,0.2275,10.81,0.1326,86.2,3.8,5.13
+3,meet_the_press,Meet The Press Full Donald Trump Interview Transcr,2023-09-17,12013,4071,523,263,74.7,0.1803,10.84,0.0959,85.69,4.0,5.15
+4,60_minutes_2025,The Donald Trump 2025 60 Minutes Interview,2025-11-02,11925,2591,362,181,82.2,0.1854,11.61,0.1026,84.37,4.5,5.6
+5,elon_musk_interview,Elon Musk and Donald Trump Interview,2024-08-12,15834,5988,374,187,72.6,0.1686,11.75,0.0954,84.88,4.4,5.41
+6,person_woman_man,"Donald Trump ""Person, Woman, Man, Camera, TV"" Inte",2020-07-22,1079,55,9,7,95.1,0.3744,11.73,0.2289,93.54,3.1,5.57
+7,60_minutes_unedited,Donald Trump Leaked Unedited 60 Minutes Interview ,2020-10-22,4863,1961,431,213,71.3,0.2371,8.84,0.1213,87.42,3.4,4.75
+9,chris_wallace_july19,Donald Trump Chris Wallace Interview Transcript Ju,2020-07-19,5376,2593,290,143,67.5,0.2476,8.64,0.1406,87.52,3.3,4.54
+10,roe_v_wade,"Donald Trump Interview Transcript on Roe v. Wade, ",2020-09-27,1861,399,31,16,82.3,0.3186,11.01,0.1918,85.49,4.1,5.58
+11,hannity_oct8,Donald Trump Sean Hannity Interview Transcript Oct,2020-10-08,3747,1090,78,46,77.5,0.2856,10.44,0.17,86.2,3.8,5.42
+12,oval_office,Trump Oval Office Interview,2025-04-29,5005,2758,421,200,64.5,0.2338,9.1,0.1301,86.6,3.7,4.98
+13,judge_jeanine_sep12,Donald Trump Judge Jeanine Pirro Interview Transcr,2020-09-12,2474,725,81,41,77.3,0.3036,13.82,0.1791,82.85,5.1,6.68
+14,will_cain_show,Donald Trump Interview on the Will Cain Show,2024-06-02,12055,3025,213,101,79.9,0.1986,10.3,0.1156,86.5,3.7,4.8
+15,bunker_inspection,Donald Trump Radio Interview Transcript: Admits Go,2020-06-03,3411,894,113,64,79.2,0.2932,12.31,0.1721,84.57,4.5,5.97
+16,hannity_debate_covid,Transcript: Donald Trump and Sean Hannity Intervie,2020-10-01,2343,933,52,35,71.5,0.2975,10.41,0.1729,94.45,2.7,5.22
+17,fox_friends_dec2021,Donald Trump Fox and Friends Interview Transcript ,2021-12-02,3020,1692,75,30,64.1,0.2692,13.54,0.1533,83.05,5.1,6.24

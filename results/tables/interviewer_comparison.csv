@@ -1,0 +1,17 @@
+id,slug,interviewer,profile,trump_words,interviewer_words,trump_talk_ratio,avg_trump_sentiment,avg_inter_sentiment,sentiment_alignment,ttr,fk_grade,avg_sent_len,amplifier_rate,hedge_rate,interrupt_rate,total_turns
+1,axios_hbo,Jonathan Swan,adversarial,5151,2536,67.0,0.0121,0.0329,0.9792,0.2429,3.3,8.28,12.23,5.44,0.4963,530
+2,tucker_x_debate,Tucker Carlson,supportive,7732,957,89.0,0.0231,-0.0052,0.9717,0.2275,3.8,10.81,13.45,12.03,0.1471,135
+3,meet_the_press,Kristen Welker,neutral,12013,4071,74.7,0.0175,0.0447,0.9727,0.1803,4.0,10.84,11.9,7.33,0.2852,523
+4,60_minutes_2025,Norah O'Donnell,neutral,11925,2591,82.2,0.0252,0.047,0.9782,0.1854,4.5,11.61,13.0,8.05,0.3094,362
+5,elon_musk_interview,Elon Musk,supportive,15834,5988,72.6,0.03,0.1229,0.9071,0.1686,4.4,11.75,11.81,7.07,0.3316,374
+6,person_woman_man,Marc Siegel,supportive,1079,55,95.1,0.053,0.1685,0.8845,0.3744,3.1,11.73,10.19,8.34,0.0,9
+7,60_minutes_unedited,Lesley Stahl,adversarial,4863,1961,71.3,0.0617,0.0632,0.9985,0.2371,3.4,8.84,10.9,6.58,0.385,431
+9,chris_wallace_july19,Chris Wallace,adversarial,5376,2593,67.5,0.044,0.0012,0.9572,0.2476,3.3,8.64,9.86,7.07,0.3427,290
+10,roe_v_wade,Pete Hegseth,supportive,1861,399,82.3,0.1812,0.0557,0.8746,0.3186,4.1,11.01,24.72,20.42,0.1875,31
+11,hannity_oct8,Sean Hannity,supportive,3747,1090,77.5,0.034,0.0641,0.9699,0.2856,3.8,10.44,16.81,6.67,0.1739,78
+12,oval_office,Terry Moran,adversarial,5005,2758,64.5,0.023,0.0278,0.9952,0.2338,3.7,9.1,14.39,12.79,0.475,421
+13,judge_jeanine_sep12,Jeanine Pirro,supportive,2474,725,77.3,-0.0548,-0.0054,0.9506,0.3036,5.1,13.82,9.3,7.28,0.1463,81
+14,will_cain_show,"Will Cain, Pete Hegseth, Rachel Campos-Duffy",supportive,12055,3025,79.9,0.0615,0.1042,0.9573,0.1986,3.7,10.3,12.86,6.55,0.3465,213
+15,bunker_inspection,Brian Kilmeade,supportive,3411,894,79.2,0.0956,0.049,0.9534,0.2932,4.5,12.31,15.83,9.67,0.375,113
+16,hannity_debate_covid,Sean Hannity,supportive,2343,933,71.5,0.0514,-0.0206,0.928,0.2975,2.7,10.41,17.93,10.24,0.0286,52
+17,fox_friends_dec2021,"Brian Kilmeade, Steve Doocy, Ainsley Earhardt",supportive,3020,1692,64.1,0.1,0.0348,0.9348,0.2692,5.1,13.54,16.89,8.61,0.1,75

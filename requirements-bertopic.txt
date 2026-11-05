@@ -1,0 +1,8 @@
+# Versions used for scripts/10_bertopic.py (Section 2.4.6)
+bertopic==0.16.2
+umap-learn==0.5.7
+scikit-learn==1.4.2
+sentence-transformers==5.4.0
+pandas
+numpy
+nltk

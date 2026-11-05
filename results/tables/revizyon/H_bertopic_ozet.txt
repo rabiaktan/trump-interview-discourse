@@ -1,0 +1,4 @@
+Cümle sayısı: 8318
+Konu sayısı (aykırı -1 hariç): 184
+Aykırı (-1) oranı: 0.353
+Python 3.11.9 | bertopic 0.16.2 | umap-learn 0.5.7 | hdbscan ? | scikit-learn 1.4.2 | sentence-transformers 5.4.0 | nltk 3.9.3

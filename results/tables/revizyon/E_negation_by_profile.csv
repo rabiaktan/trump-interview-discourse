@@ -1,0 +1,7 @@
+profile_orig,has_negation,size,mean
+adversarial,False,1570,0.042
+adversarial,True,457,-0.019
+neutral,False,1484,0.033
+neutral,True,466,-0.031
+supportive,False,3375,0.059
+supportive,True,966,0.015

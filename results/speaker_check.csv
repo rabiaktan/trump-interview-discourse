@@ -1,0 +1,59 @@
+﻿slug,speaker,is_trump,turns,words
+axios_hbo,President Donald J. Trump,True,270,5151
+axios_hbo,Jonathan Swan,False,259,2533
+axios_hbo,1,False,1,3
+tucker_x_debate,Donald Trump,True,68,7732
+tucker_x_debate,Tucker Carlson,False,67,957
+meet_the_press,Donald Trump,True,263,12013
+meet_the_press,Kristen Walker,False,260,4071
+60_minutes_2025,Donald Trump,True,181,11925
+60_minutes_2025,Norah O'Donnell,False,180,2587
+60_minutes_2025,1,False,1,4
+elon_musk_interview,Donald Trump,True,187,15834
+elon_musk_interview,Elon Musk,False,185,5982
+elon_musk_interview,Speaker 1,False,2,6
+person_woman_man,Donald Trump,True,7,1079
+person_woman_man,Interviewer,False,2,55
+60_minutes_unedited,Donald Trump,True,213,4863
+60_minutes_unedited,Lesley Stahl,False,207,1869
+60_minutes_unedited,Speaker 3,False,6,61
+60_minutes_unedited,Speaker 1,False,3,14
+60_minutes_unedited,2,False,1,8
+60_minutes_unedited,4,False,1,9
+chris_wallace_july19,Donald Trump,True,142,5347
+chris_wallace_july19,Chris Wallace,False,140,2430
+chris_wallace_july19,James Comey,False,2,27
+chris_wallace_july19,1,False,1,1
+chris_wallace_july19,Kaylee,False,1,17
+chris_wallace_july19,2,False,1,85
+chris_wallace_july19,Redfield,False,1,30
+chris_wallace_july19,Trump,True,1,29
+chris_wallace_july19,Clinton,False,1,3
+roe_v_wade,Donald Trump,True,16,1861
+roe_v_wade,Pete Hegseth,False,15,399
+hannity_oct8,President Donald Trump,True,46,3747
+hannity_oct8,Sean Hannity,False,32,1090
+oval_office,Terry Moran,False,207,2642
+oval_office,President Donald Trump,True,200,5005
+oval_office,Speaker 1,False,6,66
+oval_office,Announcer,False,4,32
+oval_office,Speaker 2,False,2,9
+oval_office,Reporter,False,2,9
+judge_jeanine_sep12,Donald Trump,True,41,2474
+judge_jeanine_sep12,Jeanine Pirro,False,40,725
+will_cain_show,Donald Trump,True,101,12055
+will_cain_show,Rachel Campos-Duffy,False,69,1259
+will_cain_show,Pete Hegseth,False,25,474
+will_cain_show,Will Cain,False,18,1292
+bunker_inspection,President Donald Trump,True,64,3411
+bunker_inspection,Brian Kilmeade,False,49,894
+hannity_debate_covid,Donald Trump,True,35,2343
+hannity_debate_covid,Sean Hannity,False,17,933
+fox_friends_dec2021,Donald Trump,True,30,3020
+fox_friends_dec2021,Steve Doocy,False,16,503
+fox_friends_dec2021,Brian Kilmeade,False,14,477
+fox_friends_dec2021,Ainsley Earhardt,False,6,357
+fox_friends_dec2021,Doocy,False,4,107
+fox_friends_dec2021,Dr Fauci,False,3,73
+fox_friends_dec2021,Psaki,False,1,84
+fox_friends_dec2021,Biden,False,1,91

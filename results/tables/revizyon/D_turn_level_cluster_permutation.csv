@@ -1,0 +1,9 @@
+scheme,outcome,adv_minus_others_per100,p_cluster_perm,n_permutations
+profile_orig,amp_per100,-0.151,0.4714,1820
+profile_orig,amp_excl_great_per100,0.031,0.8407,1820
+profile_orig,neg_per100,0.542,0.0533,1820
+profile_orig,hedge_per100,-0.008,0.967,1820
+profile_alt,amp_per100,-0.297,0.2321,560
+profile_alt,amp_excl_great_per100,-0.119,0.4964,560
+profile_alt,neg_per100,0.434,0.1786,560
+profile_alt,hedge_per100,-0.234,0.3089,560
