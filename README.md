@@ -2,7 +2,7 @@
 
 Analysis code, annotation data, and result tables for the book
 
-> Korkmaz Tan, R., Zengin, B., & Mert Coşkun, O. (2026). *Linguistic patterns in political interview discourse: A corpus-based NLP analysis of Donald Trump's speech (2020–2025)*. Sakarya University Press. https://doi.org/10.59537/saupress.2606
+> Korkmaz Tan, R., Zengin, B., & Mert Coşkun, O. (2026). *Linguistic patterns in political interview discourse: A corpus-based NLP analysis of Donald Trump's speech (2020–2025)*. Sakarya University Press. https://doi.org/10.59537/saupress.2607
 
 This package contains the material that the book describes as available to readers:
 
